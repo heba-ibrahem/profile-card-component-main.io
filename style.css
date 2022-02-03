@@ -11,6 +11,7 @@
 }
 *{
     margin: 0;
+    font-family: 'Kumbh Sans';
 }
 /* desktop Media */
  @media screen and (max-width: 1440px){
