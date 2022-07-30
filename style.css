@@ -77,11 +77,13 @@ header img{
 h1{
     color: var(--veryDark);
     margin-right: 10px;
-    font-size: 23px;
+    font-size: 30px;
 }
+
 p{
     color: var(--darkGrayish);
 }
+
 .profileImg{
     display: flex;
     justify-content: center;
@@ -90,6 +92,13 @@ p{
 .profileImg img{
     border-radius: 50%;
     border: 6px solid #fff;
+}
+hr{
+    /* color: rgb(176, 27, 27); */
+    background-color:rgb(246, 243, 243);
+    border: none;
+    height: 2px;
+    /* width: 100px; */
 }
 .numbers{
     display: flex;
@@ -102,11 +111,19 @@ p{
     flex-direction: column;
     text-align: center;
 }
-.number p{
+.number {
     font-size: 9px;
     letter-spacing: 2px;
     color: var(--darkGray);
     margin-top: 5px;
+    text-align: center;
+}
+.p{    
+    color: var(--veryDark);
+    /* margin-right: 10px; */
+    font-size: 17px;
+    font-weight: bold;
+    
 }
 /* footer */
 .attribution {
