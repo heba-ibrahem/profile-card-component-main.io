@@ -40,13 +40,15 @@
 /* container */
 #container{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     background-color: var(--darkCyan);
     background-image: url(images/bg-pattern-top.svg) ,url(images/bg-pattern-bottom.svg);
     background-repeat: no-repeat;   
+    align-items: center;
 }
 
 #card{
+    
     border-radius: 20px;
     background-color: #fff;
 }
