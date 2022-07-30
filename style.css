@@ -16,7 +16,7 @@
 /* desktop Media */
  @media screen and (max-width: 1440px){
     body{
-        background-position: -360px -600px ,670px 360px;    
+        background-position: -290px -600px ,670px 360px;    
     }
     .card{
         width: 350px;
